@@ -1,0 +1,1 @@
+This is the case when a class has only **one and one direct super class**. This is what is supported in Java. but do note that even though all **derived classes** only have one **base class**, this doesn't mean that the **base class** cannot have more than one child. When the base class has more than one child, this is called [[hierarchical inheritance]]

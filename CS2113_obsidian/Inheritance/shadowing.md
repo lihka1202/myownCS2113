@@ -1,0 +1,1 @@
+This is a phenomenon in OOP when the derived class possess either **methods** or **variables** which exist in the super class. The **derived class variables** shadow the **super class variables** in their own methods or constructors. An easier way to ensure that there is no shadowing conflict is to simply use the [[this.]] attribute of a class to clear an differences.
