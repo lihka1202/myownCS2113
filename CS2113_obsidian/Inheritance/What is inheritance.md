@@ -71,4 +71,7 @@ This is also possible for [[constructors]].
 
 More details on this can be found in [[super]].
 
+The next part can be found here: [[object class]]
+
+
 
