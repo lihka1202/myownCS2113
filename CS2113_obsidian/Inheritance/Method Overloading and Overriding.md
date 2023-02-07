@@ -25,5 +25,9 @@ Another key thing to note when it comes to **overrides**, need to ensure that so
 - **Access modifier**
 
 
+# @Override
+This is just an annotation, it tells the compiler that this method is actually written somewhere else and we want to override that
+
+
 
 

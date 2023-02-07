@@ -146,3 +146,5 @@ Code is better in several way, and not limited to:
 -   It is **shorter**.
 -   It is **simpler**.
 -   It is more **flexible** (in the above example, the `main` method will work even if we add more animal types).
+
+Essentially this allows us to use [[Substituability]], where an object can be off one type, but still show behaviors from another.

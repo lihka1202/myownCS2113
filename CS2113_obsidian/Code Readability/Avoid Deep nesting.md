@@ -43,3 +43,6 @@ int calculateSubsidy() {
 }
 
 ```
+
+Essentially if you have a guard clause at the very start of the if-else nesting sequence all you need to do is **break or continue**
+
