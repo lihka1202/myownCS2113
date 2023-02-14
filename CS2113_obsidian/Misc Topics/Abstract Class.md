@@ -65,3 +65,5 @@ public class DomesticCat extends Feline {
 
 ```
 
+List of exceptions for coursemology
+- 

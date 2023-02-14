@@ -26,3 +26,81 @@ Advantages of exception handling in this way:
 
 -   The ability to propagate error information through the call stack.
 -   The separation of code that deals with 'unusual' situations from the code that does the 'usual' work.
+
+## Basic categories of Exceptions
+### Checked Exception
+- Any exception that can be anticipated, and the system can recover from thee exceptions and solve some of the issues which are affiliated to this
+- All exceptions are checked exceptions except for `Error` and `RunTimeException` and their subclasses
+### Errors
+- Exceptional conditions that are external to the application and that the application usually cannot anticipate or recover from. These are usually subclasses of **Error**
+	- Usually in this case, it makes sense for the program to actually print a **stack trace** and trace the source of the issue
+### Runtime exceptions
+- Conditions that are internal to the application and that the application usually cannot anticipate or recover from
+
+
+
+
+# How to use these exceptions
+Exceptions mainly make use of **try and catch blocks**\
+
+Its important to understand how to use exceptions as these are crucial to later parts of your code for the IP and generally as well, as this knowledge is generally useful for [[automated unit test]].
+
+Generally, in order to use repeating exceptions, I think the usage of a **do while loop is better**. This is because this ensure that the whole code at the very least will repeat this one time
+
+Either way, generally exceptions looks something like this:
+```java
+public void writeList() {
+    print("starting method");
+    try {
+        print("starting process");
+        process();
+        print("finishing process");
+
+    } catch (IndexOutOfBoundsException e) {
+        print("caught IOOBE");
+
+    } catch (IOException e) {
+        print("caught IOE");
+
+    }
+    print("finishing method");
+}
+
+```
+
+So the flow of control can be any of the following:
+![[Pasted image 20230211172941.png]]
+
+You can use a **finally** block to specify code that is generated to execute with or without the exception. This is the right place to close files, recover resources or clean up the code after the **try** sequence
+
+
+-   The `try` statement should contain at least one `catch` block or a finally block and may have multiple `catch` blocks.
+    
+-   The class of the exception object indicates the type of exception thrown. The exception object can contain further information about the error, including an error message.
+
+You can also throw **exceptions** using statements, this requires some object to actually be throwable, and this might a large part of the issue
+
+Here is an example of a throw statement
+
+```java
+if (size == 0) {
+    throw new EmptyStackException();
+}
+
+```
+
+In java, **Checked exceptions are subject to either catch or specify requirement**. Code that might throw checked exceptions must be enclosed by either of the following
+
+
+So you can ensure that methods communicate that they throw checked exceptions
+
+Here is an example:
+```java
+public void writeList() throws IOException, IndexOutOfBoundsException {
+    print("starting method");
+    process();
+    print("finishing method");
+}
+
+```
+

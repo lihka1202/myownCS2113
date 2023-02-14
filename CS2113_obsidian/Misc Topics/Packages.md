@@ -68,7 +68,7 @@ as packages do not behave as hierarchies despite appearances.
 
 **If you do not use a package statement, your type doesn't have a package** -- a practice not recommended (except for small code examples) as it is not possible for a type in a package to import a type that is not in a package.
 
-**Optionally, a _static import_ can be used to import static members of a type** so that the imported members can be used without specifying the type name.
+**Optionally, a _static import_ can be used to import static members of a type** so that the imported members can be used without specifying the type name. *what does this mean? you can use the members without using the type name each time*
 
 ```java
 import static seedu.tojava.util.Formatter.PREFIX;

@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fac6e9ec5fcd2b52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RCS-Github/Branching.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Error Handling/Exceptions.md",
+                "file": "RCS-Github/Branching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Error Handling/Exceptions.md",
+                "file": "RCS-Github/Branching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Error Handling/Exceptions.md"
+                "file": "RCS-Github/Branching.md"
               }
             }
           },
@@ -204,17 +216,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fea63867ffc6ee5d",
+  "active": "fac6e9ec5fcd2b52",
   "lastOpenFiles": [
-    "Misc Topics/Access Modifiers.md",
+    "Error Handling/Exceptions.md",
     "Misc Topics/Packages.md",
-    "Inheritance/Interfaces.md",
+    "Inheritance/ClassCastException.md",
+    "IP/IP Week 4 updates.md",
     "Misc Topics/Abstract Class.md",
+    "Misc Topics/Access Modifiers.md",
+    "Inheritance/Interfaces.md",
     "ClassCastException..md",
     "Inheritance/Abstract Method.md",
-    "Inheritance/ClassCastException.md",
-    "Misc Topics/Casting.md",
-    "Inheritance/Downcasting.md",
-    "Refactoring/Refactoring.md"
+    "Misc Topics/Casting.md"
   ]
 }
