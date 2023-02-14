@@ -47,3 +47,17 @@ git merge --no-ff add-countries
 ```
 
 For effect, its best if you can try to see how this works, in teh DukeException package and play around to find out what can be done.
+
+
+## You can push branches
+
+Some explanation:
+- git push origin master pushes the master branch to the repo named origin. This in its own right is branch pushing
+- git push upstream-rpo add intro pushes the add-intro branch onto upstream repo
+If youre pushing a branch you just made locally, need to use:
+
+```
+git push -u origin <name_of_branch>
+
+
+```
