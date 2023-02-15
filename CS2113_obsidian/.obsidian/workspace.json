@@ -73,14 +73,110 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RCS-Github/Branching.md",
+                "file": "IP/Use Downcasting to differentiate between Task and Deadline.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6dbbe5fb9f36993",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misc Topics/Packages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc7431f9791ee788",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Generics/What are generics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db83af4f1f5ac904",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Generics/How to use Generics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ac8415c10fdfcbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java Collections/The collections framework.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae9616448e1750e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java Collections/ArrayList.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d5cbe5819bbe97b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java Collections/Hashmaps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42e538e071ae5e28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misc Topics/File Access.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2d89cd4801d6a52c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misc Topics/Jar Files.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -146,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RCS-Github/Branching.md",
+                "file": "Misc Topics/Jar Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RCS-Github/Branching.md",
+                "file": "Misc Topics/Jar Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +282,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RCS-Github/Branching.md"
+                "file": "Misc Topics/Jar Files.md"
               }
             }
           },
@@ -216,17 +312,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fac6e9ec5fcd2b52",
+  "active": "2d89cd4801d6a52c",
   "lastOpenFiles": [
-    "Error Handling/Exceptions.md",
+    "Misc Topics/File Access.md",
+    "Java Collections/Hashmaps.md",
+    "Java Collections/ArrayList.md",
+    "Java Collections/The collections framework.md",
+    "Generics/How to use Generics.md",
+    "Generics/What are generics.md",
     "Misc Topics/Packages.md",
-    "Inheritance/ClassCastException.md",
+    "RCS-Github/Branching.md",
     "IP/IP Week 4 updates.md",
-    "Misc Topics/Abstract Class.md",
-    "Misc Topics/Access Modifiers.md",
-    "Inheritance/Interfaces.md",
-    "ClassCastException..md",
-    "Inheritance/Abstract Method.md",
-    "Misc Topics/Casting.md"
+    "Error Handling/Exceptions.md"
   ]
 }

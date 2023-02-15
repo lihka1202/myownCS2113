@@ -92,3 +92,7 @@ If the `seedu.tojava.Main` class is defined in the file `Main.java`,
     `javac seedu/tojava/Main.java`
 -   when running it from the `<compiler output folder>`, the command is:  
     `java seedu.tojava.Main`
+
+## how to turn something into a package
+
+Just right click to add a new package and add these into the package spectrum
